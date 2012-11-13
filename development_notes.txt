@@ -1,0 +1,17 @@
+POSTGRES Setup (Changes to config/database.yml file):
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app_development
+  pool: 5
+  username: postgres
+  password: wasd@123
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app_test
+  pool: 5
+  username: postgres
+  password: wasd@123
