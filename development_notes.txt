@@ -14,4 +14,4 @@ test:
   database: sample_app_test
   pool: 5 
   username: postgres
-  password: wasd@123 
+  password: wasd@123  
