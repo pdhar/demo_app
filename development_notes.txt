@@ -15,3 +15,10 @@ test:
   pool: 5 
   username: postgres
   password: wasd@123  
+  
+git commands:
+
+git push -- to push to remote server (github)
+git merge <branch name)
+git commit -am "Message"
+git checkout (branch name)
