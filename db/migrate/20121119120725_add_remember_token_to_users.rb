@@ -4,3 +4,4 @@ class AddRememberTokenToUsers < ActiveRecord::Migration
     add_index  :users, :remember_token    
   end
 end
+
