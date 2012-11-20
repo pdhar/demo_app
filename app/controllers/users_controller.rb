@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_filter :correct_user,   only: [:edit, :update]
   
   def index
-    @users = User.all
+    @users = User.paginate(per_page: 30, page: params[:page])
   end
   
   def show
